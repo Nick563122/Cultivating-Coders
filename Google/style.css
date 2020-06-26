@@ -1,0 +1,104 @@
+ul {
+    list-style-type: none;
+
+}
+li {
+    display: inline;
+    padding: 10px;
+}
+
+.google-link{
+    color: #000000;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+.google-link:hover {
+    text-decoration: underline;
+}
+
+.login-container{
+    float: right;
+  
+}
+
+.gmail {
+    float: right;
+}
+
+.images {
+    float: right;
+}
+
+.material-icons {
+    float: right;
+    padding: 10px;
+}
+
+body{
+    margin: auto;
+}
+
+img{
+    margin-top: 25px;
+    margin-left: 500px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.input-icons{
+    display: flex;
+    justify-self: center;
+}
+
+
+
+.search-buttons{
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    
+}
+
+.advertising{
+    float: left;
+    }
+
+.business{
+    float: left;
+}
+
+.how-works{
+    float: left;
+}
+.settings{
+    float: right;}
+
+.terms{
+    float: right;
+}
+
+.privacy{
+    float: right;
+}
+#page-container {
+    background-color: gainsboro;
+    position: relative;
+    min-height: 100%;
+    
+  }
+  
+#content-wrap {
+    padding-bottom: 1rem;    
+  }
+  
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0.5rem;
+  }  
+
+
+
