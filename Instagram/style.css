@@ -1,0 +1,88 @@
+ul {
+    list-style-type: none;
+
+}
+li {
+    display: inline;
+    padding: 10px;
+}
+
+.insta-link{
+    color: navy;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+.sign-up{
+    color: blue;
+    text-decoration: none;
+}
+
+body{
+    background-color: #eeeeee
+}
+.container{
+    background-color:white;
+    border:solid;
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 380px;
+    height: 410px;
+}
+
+h3{
+    text-align: center;
+}
+
+img{
+    margin-top: -550px;
+    margin-left: 200px;
+}
+
+.input-icons{
+    display: flex;
+    flex-direction: column;
+    height: 36px;
+    width: 260px;
+    padding: 5px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 270px;
+}
+
+.sub-content{
+    background-color: white;
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 380px;
+    height: 63px;
+    margin-left: 600px;
+}
+
+
+
+#page-container {
+    position: relative;
+    min-height: 100%;
+    
+  }
+  
+#content-wrap {
+    padding-bottom: 1rem;    
+  }
+  
+#footer {
+    position: fixed;
+    bottom: auto;
+    width: fit-content;
+    height: 0.5rem;
+    padding-top: 0.5rem;
+  }  
